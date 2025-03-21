@@ -6,35 +6,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Default styles for desktop */
-body {
-    font-size: 18px;
-    margin: 20px;
-}
-
-/* Mobile view (screens smaller than 768px) */
-@media screen and (max-width: 768px) {
-    body {
-        font-size: 14px;
-        margin: 10px;
-    }
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.item {
-    width: 100%; /* Full width on mobile */
-}
-
-@media screen and (min-width: 768px) {
-    .item {
-        width: 50%; /* Half width on desktop */
-    }
-}
 /* Header Styling */
 .header {
     width: 100%;
